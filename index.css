@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+.instructions{
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px;
+}
+#btn_1{
+    margin: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.game-container {
+    padding: 20px;
+    background-color: lightblue;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.clue {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+#user-guess{
+    font-size: 20px;
+    border-radius: 5px;
+}
+.result {
+    font-size: 18px;
+    margin-top: 10px;
+}
